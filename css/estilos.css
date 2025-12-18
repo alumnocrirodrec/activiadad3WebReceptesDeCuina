@@ -1,0 +1,116 @@
+*, *::before, *::after{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+	font-family: Arial, sans-serif;
+}
+
+body{
+	padding: 20px;
+    background-image: url("../img/fondo.jpg");
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+}
+
+header h1{
+    background: white;
+    width: 85%;
+    margin: 20px auto;
+    border: 8px solid #cde738;
+	text-align: center;
+	color: #cde738;
+    padding: 15px;
+}
+
+nav{
+	margin: 10px auto;
+	background-color:none;
+	width: 90%;
+	border-radius: 15px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+}
+
+nav ul li{
+	background: #cde738;
+	border: 3px solid #cde738;
+	padding: 8px 20px;
+	border-radius: 6px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 60vh;
+    margin-top: 0;
+}
+
+article{
+    background: white;
+    border: 6px solid #0b2fd3;
+    width: 250px;
+	padding: 5px;
+	text-align: left;
+}
+
+article h2{
+	color: #0b2fd3;
+}
+
+article p{
+	margin: 5px;
+	padding: 5px 5px 5px 0;
+	border-top: 3px solid #0b2fd3;
+	text-align: justify;
+}
+
+aside {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+aside ul {
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    padding-left: 40px;
+}
+
+aside ul li {
+    color: black;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    background: none;
+    border: none;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+    background: white;
+    border: 6px solid #cde738;
+	padding: 10px;
+	width: 90%;
+	margin: 20px auto 0 auto;
+}
